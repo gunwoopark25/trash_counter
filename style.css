@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7일 */
+    gap: 5px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#calendar div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 50px;
+    background-color: #e6f7ff;
+    position: relative;
+}
+
+#calendar div span {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: #555;
+}
+
+#chart-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
